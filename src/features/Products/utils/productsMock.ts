@@ -17,7 +17,8 @@ export const PRODUCTS_MOCK = [
       "5G smartphone with 6.7” AMOLED display, triple 64MP camera, and 5000mAh battery.",
     price: 3999.0,
     image: {
-      filePath: "https://picsum.photos/id/237/600/400",
+      filePath:
+        "https://images.samsung.com/is/image/samsung/p6pim/br/f-a566ezkr390b/gallery/br-bundle-a56-5g__-galaxy-fit3__-graphite-f-a566ezkr390b-thumb-545945947?$UX_EXT2_PNG$",
       alt: "Smartphone Neo Z",
     },
   },
@@ -28,7 +29,8 @@ export const PRODUCTS_MOCK = [
       "Bluetooth headset with active noise cancellation and up to 30 hours of battery life.",
     price: 899.9,
     image: {
-      filePath: "https://picsum.photos/id/1080/600/400",
+      filePath:
+        "https://cdn.dooca.store/152726/products/1078_640x640.png?v=1723048692&webp=0",
       alt: "Wireless Headphones Pulse",
     },
   },
@@ -39,7 +41,8 @@ export const PRODUCTS_MOCK = [
       "Curved UltraWide monitor with QHD resolution, 144Hz refresh rate, and HDR10 support.",
     price: 2599.0,
     image: {
-      filePath: "https://picsum.photos/id/27/600/400",
+      filePath:
+        "https://img.odcdn.com.br/wp-content/uploads/2023/01/odyssey-g9-57-2.webp",
       alt: "UltraWide 34” Vision Monitor",
     },
   },
@@ -50,7 +53,8 @@ export const PRODUCTS_MOCK = [
       "Gaming mechanical keyboard with Blue switches, RGB lighting, and programmable keys.",
     price: 499.9,
     image: {
-      filePath: "https://picsum.photos/id/1062/600/400",
+      filePath:
+        "https://cougargaming.com/global/img/products/keyboards/450k/product-image.jpg",
       alt: "RGB Storm Mechanical Keyboard",
     },
   },

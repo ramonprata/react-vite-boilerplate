@@ -8,14 +8,13 @@
 
 .productImageWrapper {
   position: relative;
-  width: 100%;
   aspect-ratio: 3 / 2;
 }
 
 .productImage {
-  object-fit: cover;
-  border-radius: 8px;
+  object-fit: contain;
   width: 100%;
+  height: 100%;
 }
 
 .productInfo {
