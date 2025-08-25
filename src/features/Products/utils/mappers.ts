@@ -1,4 +1,4 @@
-import { formatCurrency } from "@/src/shared/utils";
+import { formatCurrency } from "@shared/utils";
 import type { IProductDto, IProductView } from "../types/IProduct";
 import type { TProductsMappers } from "../types/TProductsMappers";
 

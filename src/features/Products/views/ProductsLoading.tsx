@@ -1,4 +1,4 @@
-import { SourceLoader } from "@/src/shared/components";
+import { SourceLoader } from "@shared/components";
 import styles from "./styles/ProductsLoading.module.scss";
 
 const ProductsLoading = () => {

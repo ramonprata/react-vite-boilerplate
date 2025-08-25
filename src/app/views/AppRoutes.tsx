@@ -1,14 +1,17 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import "./styles/index.scss";
-import { HomePage } from "../../features/Home";
+import { HomePage } from "@features/Home";
+import { ProductsPage } from "@features/Products";
 import RootLayout from "./RootLayout";
 import { ROUTES } from "../utils/constants";
-import { ProductsPage } from "@/src/features/Products";
+import { useInitializeApp } from "../hooks/useInitializeApp";
 
 const queryClient = new QueryClient();
 
 const AppRoutes = () => {
+  useInitializeApp();
+
   return (
     <BrowserRouter>
       <QueryClientProvider client={queryClient}>
